@@ -17,7 +17,7 @@
 <div class="row">
     <div class="col mb-3">
         <label class="form-label">Volume</label>
-        <input type="text" name="volume" class="form-control" placeholder="Product Code" value="{{ $produto->volume }}" readonly>
+        <input type="text" name="volume" class="form-control" placeholder="volume" value="{{ $produto->volume }}" readonly>
     </div>
     <div class="col mb-3">
         <label class="form-label">Descriçao</label>
