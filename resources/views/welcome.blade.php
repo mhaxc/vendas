@@ -22,7 +22,7 @@
             <div class="row">
                 <!-- Card para Produtos -->
                 <div class="col-md-4">
-                    <div class="card text-center bg-info text-white">
+                    <div class="card text-center bg-primary text-white">
                         <div class="card-body">
                             <h5 class="card-title">Produtos</h5>
                             <p class="card-text display-4">{{ $totalProdutos }}</p>

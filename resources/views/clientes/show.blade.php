@@ -2,7 +2,7 @@
 
 @section('body')
 
-<h1 class="mb-0">Detalhes do Produto</h1>
+<h1 class="mb-0">Detalhes do Cliente</h1>
 <a href="{{ route('clientes.index') }}" class="btn btn-primary">Voltar</a>
 <hr />
 
@@ -25,7 +25,7 @@
 </div>
 <div class="row">
     <div class="col mb-3">
-        <label class="form-label">Criado </label>
+        <label class="form-label">Criado</label>
         <input type="text" name="created_at" class="form-control" placeholder="Criado " value="{{ $cliente->created_at }}" readonly>
     </div>
     <div class="col mb-3">

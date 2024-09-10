@@ -21,6 +21,7 @@
 
                 {{ $produto->nome }} =
                 {{ number_format($produto->preco, 2, ',', '.')}}
+
             </option>
             @endforeach
 

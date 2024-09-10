@@ -12,7 +12,7 @@
             padding: 10px;
             font-size: 12px;
             width: 100%;
-            height: 50%;
+            height: 10%;
         }
 
         h1 {
