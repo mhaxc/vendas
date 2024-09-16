@@ -28,8 +28,8 @@
                     @endforeach
                 </select>
 
-                <label for="quantidade">Quantidade:</label>
-                <input type="text" name="produtos[0][quantidade]" class="form-control">
+                <label for="quantidade">Quantidade(ex. 0.5 ou 1 )</label>
+                <input type="text" name="produtos[0][quantidade]" class="form-control" required>
             </div>
         </div>
         <br />
@@ -58,8 +58,8 @@
                     @endforeach
                 </select>
 
-                <label for="quantidade">Quantidade:</label>
-                <input type="text" name="produtos[${index}][quantidade]" class="form-control">
+                <label for="quantidade">Quantidade(ex. 0.5 ou 1)</label>
+                <input type="text" name="produtos[${index}][quantidade]" class="form-control" required>
             `;
         document.getElementById('produtos').appendChild(produtoDiv);
         index++;
