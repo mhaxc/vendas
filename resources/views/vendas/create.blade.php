@@ -29,7 +29,7 @@
                 </select>
 
                 <label for="quantidade">Quantidade:</label>
-                <input type="number" name="produtos[0][quantidade]" class="form-control">
+                <input type="text" name="produtos[0][quantidade]" class="form-control">
             </div>
         </div>
         <br />
@@ -59,7 +59,7 @@
                 </select>
 
                 <label for="quantidade">Quantidade:</label>
-                <input type="number" name="produtos[${index}][quantidade]" class="form-control">
+                <input type="text" name="produtos[${index}][quantidade]" class="form-control">
             `;
         document.getElementById('produtos').appendChild(produtoDiv);
         index++;

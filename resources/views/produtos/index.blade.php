@@ -28,7 +28,7 @@
         <tr>
             <td class="align-middle">{{ $loop->iteration }}</td>
             <td class="align-middle">{{ $produto->nome }}</td>
-            <td class="align-middle">R$ {{ number_format($produto->preco , 2, ',', '.') }}</td>
+            <td class="align-middle">R$ {{ $produto->preco }}</td>
             <td class="align-middle">{{ $produto->estoque }}</td>
             <td class="align-middle">{{ $produto->descricao }}</td>
             <td class="align-middle">
