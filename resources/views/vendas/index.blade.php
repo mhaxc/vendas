@@ -34,7 +34,7 @@
             <td class="align-middle">
 
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <a href="{{ route('vendas.show', $venda) }}" type="button" class="btn btn-primary">mostrar</a>
+                    <a href="{{ route('vendas.show', $venda) }}" type="button" class="btn btn-secondary">Mostrar</a>
                     <!-- <a href="{{ route('vendas.edit', $venda)}}" type="button" class="btn btn-warning">Editar</a> -->
                     <form action="{{ route('vendas.destroy', $venda) }}" method="POST" type="button" class="btn btn-danger p-0" onsubmit="return confirm('Apagar essa Venda?')">
                         @csrf
